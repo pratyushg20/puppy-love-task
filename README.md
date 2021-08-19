@@ -16,3 +16,6 @@ You will also see any lint errors in the console.
 - The **Home** page(/dashboard) can be viewed at [http://localhost:3000/home](http://localhost:3000/home) , it can also be viewed by clicking the *Login button* on the Login page.
 
 - You can update the state of the App component (name of the user and hearts received) to see the changes on the website.
+
+## Website hosted on -
+[https://pratyushg20.github.io/puppy-love-task/](https://pratyushg20.github.io/puppy-love-task/)
