@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import { Form, Button, FormGroup, Label, Formsearch, Input, Jumbotron } from 'reactstrap';
+import { Form, Button, FormGroup, Label, Input } from 'reactstrap';
 import heart from '../images/heart_image.png';
 import loveisintheair from '../images/loveisintheair.png'
 
@@ -9,7 +9,7 @@ class Home extends Component {
     }
 
     printhearts(n) {
-        if(n==0) {
+        if(n===0) {
             return(
                 <p>Unfortunately, you haven't received any hearts yet :(</p>
             );
@@ -17,7 +17,7 @@ class Home extends Component {
         else {
             var heart_array = [];
             for(var i=0;i<n;i++) {
-                heart_array.push(<img src={heart} width="50px" height="50px" />)
+                heart_array.push(<img src={heart} width="50px" height="50px" alt="heart icon" />)
             }
             return(
                 heart_array.map((element,idx) => {
@@ -41,22 +41,22 @@ class Home extends Component {
                     <div className="col-12 col-sm-6">
                         <div className="row justify-content-center">
                             <div className="col-12 greeting">
-                                <h2>Welcome {username} !</h2>
+                                <h1>Welcome {username} !</h1>
                             </div>
                         </div>
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center howto">
                             <div className="col-12">
                                 <h2>How To</h2>
-                                <p>Fill the form with upto 4 of your crushes and lock and submit your choices by February 14 11:59 PM.
+                                <p>Fill the form with upto 4 of your crushes and lock and submit your choices <strong>by February 14 11:59 PM</strong>.
                                 If your crush selects you as well, then on the stroke of the midnight hour on 14th February, you both
                                 will find out that you match. If sadly, it is a one-sided affair, it'll be a secret and no one will know
                                 except you, <strong>not even us</strong>.</p>
                                 <p>The <strong>Crush-o-meter</strong> below indicates how many poeple on the campus have a crush on you.</p>
-                                <p>We hope that you find your puppy love :)</p>
+                                <p id="wish">We hope that you find your puppy love :)</p>
                             </div>
                         </div>
                         <div className="row justify-content-center">
-                            <div className="col-12">
+                            <div className="col-12 crushometer">
                                 <h2>Crush-o-meter</h2>
                                 <div>{this.printhearts(hearts)}</div>
                             </div>

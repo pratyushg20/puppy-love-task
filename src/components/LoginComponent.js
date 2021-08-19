@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Form, Button, FormGroup, Label, FormText, Input, Jumbotron } from 'reactstrap';
-import coverphoto from '../images/coverphoto.jpg'
+import React from 'react';
+import { Form, Button, FormGroup, Label, FormText, Input } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import coverphoto from '../images/coverphoto.jpg';
 
 function Login(props) {
 
@@ -47,7 +48,7 @@ function Login(props) {
                             </FormText>
                             <div className="row justify-content-end">
                                 <div className="col-auto">
-                                    <Button outline color="success" size="lg" className="loginButton">Login</Button>
+                                    <Link to="/home"><Button outline color="success" size="lg" className="loginButton">Login</Button></Link>
                                 </div>
                             </div>
                         </Form>
