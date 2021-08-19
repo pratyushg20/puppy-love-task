@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/puppy-love-task/static/css/main.fbe46b16.chunk.css",
+    "main.js": "/puppy-love-task/static/js/main.a5515756.chunk.js",
+    "main.js.map": "/puppy-love-task/static/js/main.a5515756.chunk.js.map",
+    "runtime-main.js": "/puppy-love-task/static/js/runtime-main.99c8f07f.js",
+    "runtime-main.js.map": "/puppy-love-task/static/js/runtime-main.99c8f07f.js.map",
+    "static/css/2.b430288f.chunk.css": "/puppy-love-task/static/css/2.b430288f.chunk.css",
+    "static/js/2.e558059f.chunk.js": "/puppy-love-task/static/js/2.e558059f.chunk.js",
+    "static/js/2.e558059f.chunk.js.map": "/puppy-love-task/static/js/2.e558059f.chunk.js.map",
+    "static/js/3.c26b6879.chunk.js": "/puppy-love-task/static/js/3.c26b6879.chunk.js",
+    "static/js/3.c26b6879.chunk.js.map": "/puppy-love-task/static/js/3.c26b6879.chunk.js.map",
+    "index.html": "/puppy-love-task/index.html",
+    "static/css/2.b430288f.chunk.css.map": "/puppy-love-task/static/css/2.b430288f.chunk.css.map",
+    "static/css/main.fbe46b16.chunk.css.map": "/puppy-love-task/static/css/main.fbe46b16.chunk.css.map",
+    "static/js/2.e558059f.chunk.js.LICENSE.txt": "/puppy-love-task/static/js/2.e558059f.chunk.js.LICENSE.txt",
+    "static/media/coverphoto.383aa09a.jpg": "/puppy-love-task/static/media/coverphoto.383aa09a.jpg",
+    "static/media/font-awesome.min.css": "/puppy-love-task/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/heart_image.ddc3e3d1.png": "/puppy-love-task/static/media/heart_image.ddc3e3d1.png",
+    "static/media/loveisintheair.b3b5f1a5.png": "/puppy-love-task/static/media/loveisintheair.b3b5f1a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99c8f07f.js",
+    "static/css/2.b430288f.chunk.css",
+    "static/js/2.e558059f.chunk.js",
+    "static/css/main.fbe46b16.chunk.css",
+    "static/js/main.a5515756.chunk.js"
+  ]
+}
