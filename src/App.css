@@ -1,1 +1,83 @@
+/* CSS FOR LOGIN PAGE */
 
+.coverImageContainer {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.row {
+    margin: auto;
+}
+
+.about {
+    color: floralwhite;
+}
+
+.loginForm {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    height: fit-content;
+}
+
+.loginButton {
+    border-radius: 2px;
+}
+
+.loginHeader {
+    color: floralwhite;
+    text-align: center;
+}
+
+.signupLink {
+    text-decoration: none;
+}
+
+.signupLink:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.signupText {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+/* CSS FOR HOME PAGE */
+
+.homeContainer {
+    color: floralwhite;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.heart_received_icon {
+    display: inline-block;
+}
+
+.crushForm {
+    padding-top: 30px;
+}
+
+.greeting {
+    text-align: center;
+}
+
+.saveButton {
+    border-radius: 1px;
+    margin-right: 7px;
+}
+
+.lockButton {
+    border-radius: 1px;
+    margin-left: 7px;
+}
+
+.loveInAir {
+    max-width: 95%;
+}
+
+.loveInAirDiv {
+    margin-top: 30px;
+}

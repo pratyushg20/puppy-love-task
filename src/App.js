@@ -9,8 +9,10 @@ class App extends Component {
         super(props);
 
         this.state = {
-            name: "John Doe",
-            hearts_received: 3
+            user_details: {
+                name: "John Doe",
+                hearts_received: 5
+            } 
         };
     }
 
@@ -18,9 +20,9 @@ class App extends Component {
         return(
             <BrowserRouter>
                 <Switch>
-                    <Route path="/signin" component={Login} />
-                    <Route path="/home" component={() => <Home hearts_received={this.state.hearts_received} user={this.state.name} />} />
-                    <Redirect to="/signin" />
+                    <Route path="/login" component={Login} />
+                    <Route path="/home" component={() => <Home user_details={this.state.user_details} />} />
+                    <Redirect to="/login" />
                 </Switch>
             </BrowserRouter>
         );
